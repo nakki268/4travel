@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   
+    <title>4travel</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="navbar">
+                <div class="navbar-logo">
+                    <img src="./logo.png" alt="" class="navbar-logo-img">
+                </div>
+                <div class="navbar-search">
+                    <input class="search-bar" type="text">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div id="side-nav-js" class="side-navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item ">
+                        <div id="homejs" class="active-nav">
+
+                            <a  href=""  title="Home">
+                                <span class="side-nav-icon"><i class="fas fa-home"></i></span>
+                                <span class="title-text">Home</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li  class="navbar-item">
+                        <div id="aboutjs">
+
+                            <a  title="About">
+                                <span class="side-nav-icon"><i class="far fa-address-card"></i></span>
+                                <span class="title-text">About</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="navbar-item">
+                        <div id="bookingjs">
+
+                            <a   title=" Booking">
+                                <span class="side-nav-icon"><i class="fa-solid fa-ticket"></i></span>
+                                <span class="title-text">Booking</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="" title="Message">
+                            <span class="side-nav-icon"><i class="fa-solid fa-message"></i></span>
+                            <span class="title-text">Message</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="" title="Log in">
+                            <span class="side-nav-icon"><i class="fa-solid fa-right-to-bracket"></i></span>
+                            <span class="title-text">Log-in</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a id="open-help-js" href="#" title="Help">
+                            <span class="side-nav-icon"><i class="fa-solid fa-circle-question"></i></span>
+                            <span class="title-text">Help</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="toggle"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="parallaxjs" class="parallax-container">
+
+                <div class="parallax">
+                    <img src="./Mountain.png" class="back-ground" alt="">
+                    <img src="./Trees.png" class="fore-ground" alt="">
+                    <h1>Welcome !</h1>
+                </div>
+            </div>
+            <div id="home-js" class="home-page">
+              <div class="home-page-img">
+                    <img src="./travel-pic.png" alt="">
+                    <img src="./sihouete-pic.jpg" alt="">
+                </div>
+                <div class="homepage-text">
+                    <h2>Traveling has never been so easy</h2>
+                    <h4>Travel anywhere.
+                        Bringing you the best experience at the best price</h4>
+                </div>
+                <div  class="homepage-btn">
+                    <a id="explorejs"  href="#tour-info-js">
+                        <span>EXPLORE NOW</span>
+                        <span>EXPLORE NOW</span>
+
+                    </a>
+                </div>
+            </div>
+            
+            
+            <div id="tour-info-js" class="tour-info ">
+                <div class="best-tour">
+                    <div class="text-heading best-tour-heading ">
+                        <span>OUR BEST TOUR!</span>
+                    </div>
+                    <ul class="tour-list">
+                        <li class="invisible"></li>
+                        <li class="tour-item">
+                            <div class="tour-card">
+                                <img src="./mauritius.png" alt="" class="tour-img">
+                                <div class="tour-info-layer">
+                                    <div class="tour-name">Mauritius</div>
+                                    <div class="tour-info-slide">
+    
+                                        <div class="tour-desc">
+                                            <span>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit, consectet.</span>
+                                        </div>
+                                        <div class="tour-price">
+                                            <span>1400$</span>
+                                        </div>
+                                        <div class="tour-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <button  class="tour-book tour-book-js">BOOK NOW!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="tour-item">
+                            <div class="tour-card">
+                                <img src="./french.png" alt="" class="tour-img">
+                                <div class="tour-info-layer">
+                                    <div class="tour-name">French</div>
+                                    <div class="tour-info-slide">
+    
+                                        <div class="tour-desc">
+                                            <span>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit, consectet.</span>
+                                        </div>
+                                        <div class="tour-price">
+                                            <span>1400$</span>
+                                        </div>
+                                        <div class="tour-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <button class="tour-book tour-book-js">BOOK NOW!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="tour-item">
+                            <div class="tour-card">
+                                <img src="./italy.png" alt="" class="tour-img">
+                                <div class="tour-info-layer">
+                                    <div class="tour-name">Italy</div>
+                                    <div class="tour-info-slide">
+    
+                                        <div class="tour-desc">
+                                            <span>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit, consectet.</span>
+                                        </div>
+                                        <div class="tour-price">
+                                            <span>1400$</span>
+                                        </div>
+                                        <div class="tour-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <button class="tour-book tour-book-js">BOOK NOW!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="invisible"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="more-tour-js" class="more-tour ">
+             
+                <div class="text-heading more-tour--heading">
+                    <span>    MORE TOUR
+                        <i style="--i:0;" class="fas fa-chevron-right"></i>
+                        <i style="--i:1;" class="fas fa-chevron-right"></i>
+                        <i style="--i:2;" class="fas fa-chevron-right"></i>
+                        <i style="--i:3;" class="fas fa-chevron-right"></i>
+                        <i style="--i:4;" class="fas fa-chevron-right"></i>
+                    </span>
+                    
+                </div>
+                <ul class="more-tour-list">
+                    
+                    <li class="more-tour-item">
+                        <div class="more-tour-container">
+                            <div class="pic--more">
+                                <img src="./greece.png" alt="" class="more-tour-img">
+                                <div class="tour-name--more">Greece</div>
+                            </div>
+                            <div class="content--more">
+                                <span class="price--more">$70</span>
+                                <span>/night</span>
+                                <div class="tour-rating--more">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>   
+                                <div class="tour-desc--more">
+                                    <span>
+                                        Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                    </span>
+
+                                </div>
+                                <div class="more-logo">
+                                    <img src="./note-logo.webp" alt="">
+                                    <img src="./clock-logo.webp" alt="">
+                                    <img src="./bycle-logo.webp" alt="">
+                                    <img src="./boat-logo.webp" alt="">
+                                </div>
+                                <a class="btn--more">Read more</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="more-tour-item">
+                        <div class="more-tour-container">
+                            <div class="pic--more">
+                                <img src="./netherland.png" alt="" class="more-tour-img">
+                                <div class="tour-name--more">Netherland</div>
+                            </div>
+                            <div class="content--more">
+                                <span class="price--more">$80</span>
+                                <span>/night</span>
+                                <div class="tour-rating--more">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>   
+                                <div class="tour-desc--more">
+                                    <span>
+                                        Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                    </span>
+
+                                </div>
+                                <div class="more-logo">
+                                    <img src="./note-logo.webp" alt="">
+                                    <img src="./clock-logo.webp" alt="">
+                                    <img src="./bycle-logo.webp" alt="">
+                                    <img src="./boat-logo.webp" alt="">
+                                </div>
+                                <a class="btn--more">Read more</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="more-tour-item">
+                        <div class="more-tour-container">
+                            <div class="pic--more">
+                                <img src=".//venice.png" alt="" class="more-tour-img">
+                                <div class="tour-name--more">Venice</div>
+                            </div>
+                            <div class="content--more">
+                                <span class="price--more">$100</span>
+                                <span>/night</span>
+                                <div class="tour-rating--more">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>   
+                                <div class="tour-desc--more">
+                                    <span>
+                                        Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                    </span>
+
+                                </div>
+                                <div class="more-logo">
+                                    <img src="./note-logo.webp" alt="">
+                                    <img src="./clock-logo.webp" alt="">
+                                    <img src="./bycle-logo.webp" alt="">
+                                    <img src="./boat-logo.webp" alt="">
+                                </div>
+                                <a class="btn--more">Read more</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="more-tour-item">
+                        <div class="more-tour-container">
+                            <div class="pic--more">
+                                <img src="./background-main.png" alt="" class="more-tour-img">
+                                <div class="tour-name--more">Dutch</div>
+                            </div>
+                            <div class="content--more">
+                                <span class="price--more">$80</span>
+                                <span>/night</span>
+                                <div class="tour-rating--more">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>   
+                                <div class="tour-desc--more">
+                                    <span>
+                                        Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                    </span>
+
+                                </div>
+                                <div class="more-logo">
+                                    <img src="./note-logo.webp" alt="">
+                                    <img src="./clock-logo.webp" alt="">
+                                    <img src="./bycle-logo.webp" alt="">
+                                    <img src="./boat-logo.webp" alt="">
+                                </div>
+                                <a class="btn--more">Read more</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="more-tour-item">
+                        <div class="more-tour-container">
+                            <div class="pic--more">
+                                <img src="./background-main1.png" alt="" class="more-tour-img">
+                                <div class="tour-name--more">Canada</div>
+                            </div>
+                            <div class="content--more">
+                                <span class="price--more">$90</span>
+                                <span>/night</span>
+                                <div class="tour-rating--more">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>   
+                                <div class="tour-desc--more">
+                                    <span>
+                                        Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                    </span>
+
+                                </div>
+                                <div class="more-logo">
+                                    <img src="./note-logo.webp" alt="">
+                                    <img src="./clock-logo.webp" alt="">
+                                    <img src="./bycle-logo.webp" alt="">
+                                    <img src="./boat-logo.webp" alt="">
+                                </div>
+                                <a class="btn--more">Read more</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="more-tour-item">
+                        <div class="more-tour-container">
+                            <div class="pic--more">
+                                <img src="./background-main2.jpg" alt="" class="more-tour-img">
+                                <div class="tour-name--more">Mexico</div>
+                            </div>
+                            <div class="content--more">
+                                <span class="price--more">$70</span>
+                                <span>/night</span>
+                                <div class="tour-rating--more">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>   
+                                <div class="tour-desc--more">
+                                    <span>
+                                        Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                                    </span>
+
+                                </div>
+                                <div class="more-logo">
+                                    <img src="./note-logo.webp" alt="">
+                                    <img src="./clock-logo.webp" alt="">
+                                    <img src="./bycle-logo.webp" alt="">
+                                    <img src="./boat-logo.webp" alt="">
+                                </div>
+                                <a class="btn--more">Read more</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+            
+
+            <div id="feedback-js" class="customer">
+                <div class="customer-heading-text">
+                    <h1 class="customer-text">Our customers are satisfied about us</h1>
+                    <h1 class="customer-text">How about you?</h1>
+                    
+                </div>
+                <div class="customer-feedback-list">
+                    <span class="customer-feedback-item" style="--i:0;"><img src="./customer1.webp" alt="">
+                        <div class="customer-name">
+                            <span>Shara</span>
+                        </div>
+                        <div class="feedback">
+                            <span>We like it!</span>
+                        </div>
+                    </span>
+                    <span class="customer-feedback-item" style="--i:1;"><img src="./customer2.webp" alt=""></span>
+                    <span class="customer-feedback-item" style="--i:2;"><img src="./customer3.webp" alt=""></span>
+                    <span class="customer-feedback-item" style="--i:3;"><img src="./customer4.jpg" alt=""></span>
+                    <span class="customer-feedback-item" style="--i:4;"><img src="./customer5.png" alt=""></span>
+                    <span class="customer-feedback-item" style="--i:5;"><img src="./customer6.png" alt=""></span>
+                    <span class="customer-feedback-item" style="--i:6;"><img src="./customer7.png" alt=""></span>
+
+                    <span class="customer-feedback-item" style="--i:7;"><img src="./customer8.png" alt=""></span>
+
+                </div>
+                <div class="customer-feedback-list--comment">
+                    <div class="customer-item">
+                        <div class="customer-item--avata">
+                            <img src="./feedback1.png" alt="">
+                        </div>
+                        <div class="customer--img">
+                            <img src="./kayak.png.webp" alt="">
+                        </div>
+                        <div class="customer-item--comment">
+                            <p class="customer--name">Caltherine Jeanne</p>
+                            <p class="customer--comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.<3 </p>
+                        </div>
+                    </div>
+                    <div class="customer-item">
+                        <div class="customer-item--avata">
+                            <img src="./feedback2.png" alt="">
+                        </div>
+                        <div class="customer--img">
+                            <img src="./xisland_t.png.pagespeed.ic.VzskOYDdnJ.webp" alt="">
+                        </div>
+                        <div class="customer-item--comment">
+                            <p class="customer--name">Linda Catheria</p>
+                            <p class="customer--comment">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit, consectet.  </p>
+                        </div>
+                    </div>
+                    <div class="customer-item">
+                        <div class="customer-item--avata">
+                            <img src="./feedback3.png" alt="">
+                        </div>
+                        <div class="customer--img">
+                            <img src="./xbackpack.png.pagespeed.ic.FSTbvACRee.webp" alt="">
+                        </div>
+                        <div class="customer-item--comment">
+                            <p class="customer--name">Sharah</p>
+                            <p class="customer--comment">I love it!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="about" class="about-page ">
+                <div class="text-heading">
+                    <span>ABOUT US</span>
+                </div>
+                <div class="card">
+
+                    <div class="img-box">
+                        <img src="./we are.jpg" alt="">
+                        <img src="./Ouro.Kronii.full.3432966.jpg" alt="">
+                    </div>
+                    <div class="content-box">
+                        <div class="detail">
+                            <h2>WE ARE 4TRAVEL.WE HAVE THE BEST TOURS</h2>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vulputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer elementum orci eu vehicula pretium. Donec bibendum tristique condimentum.</h5>
+                            
+                            <a href="">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>FACEBOOK</span>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram-square"></i>
+                                <span>INSTAGRAM</span>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter-square"></i>
+                                <span>TWITTER</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="statisticjs" class="static-about">
+                <div class="heading-text--static">
+                    <h2>year statistic</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vulputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer elementum orci eu vehicula pretium. Donec bibendum tristique condimentum. Aenean in lacus ligula.</p>
+                </div>
+                <div class="static-info">
+                    <div class="static-year">
+                        <p>2016</p>
+                    </div>
+                    <div class=" static-bar-invisible"></div>
+                    <div class="static-year">
+                        <p>2017</p>
+                    </div>
+                </div>
+                <div class="static-info">
+                    <div class="static-year">
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                        <div class="static-client">
+                            <h4>1642</h4>
+                            <h5>Clients</h5>
+                        </div>
+                    </div>
+                    <div class="static-bar static-bar1"></div>
+                    <div class="static-year">
+                        <div class="static-client">
+                            <h4>3572</h4>
+                            <h5>Clients</h5>
+                        </div>
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                    </div>
+                
+              
+                </div>
+                <div class="static-info">
+                    <div class="static-year">
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                        <div class="static-client">
+                            <h4>768</h4>
+                            <h5>Clients</h5>
+                        </div>
+                    </div>
+                    <div class="static-bar static-bar2"></div>
+                    <div class="static-year">
+                        <div class="static-client">
+                            <h4>145</h4>
+                            <h5>Clients</h5>
+                        </div>
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                    </div>
+                
+              
+                </div>
+                <div class="static-info">
+                    <div class="static-year">
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                        <div class="static-client">
+                            <h4>11546</h4>
+                            <h5>Clients</h5>
+                        </div>
+                    </div>
+                    <div class="static-bar static-bar3"></div>
+                    <div class="static-year">
+                        <div class="static-client">
+                            <h4>9321</h4>
+                            <h5>Clients</h5>
+                        </div>
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                    </div>
+                
+              
+                </div>
+                <div class="static-info">
+                    <div class="static-year">
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                        <div class="static-client">
+                            <h4>3729</h4>
+                            <h5>Clients</h5>
+                        </div>
+                    </div>
+                    <div class="static-bar static-bar4"></div>
+                    <div class="static-year">
+                        <div class="static-client">
+                            <h4>17429</h4>
+                            <h5>Clients</h5>
+                        </div>
+                        <img src="./xstats_1.png.pagespeed.ic.cR8aWTUlD5.webp" alt="">
+                    </div>
+                
+                    
+                </div>
+                <div class="client-total">
+                    <div class="client-total-item">
+                        <img src="./xmilestone_1.png.pagespeed.ic.cgGYEf9S7l.webp" alt="">
+                        <h3>255</h3>
+                        <h5>Clients</h5>
+                    </div>
+                    <div class="client-total-item">
+                        <img src="./xmilestone_2.png.pagespeed.ic.V3B1723E2Z.webp" alt="">
+                        <h3>1176</h3>
+                        <h5>Clients</h5>
+                    </div>
+                    <div class="client-total-item">
+                        <img src="./xmilestone_3.png.pagespeed.ic.TqXoultJd7.webp" alt="">
+                        <h3>64</h3>
+                        <h5>Clients</h5>
+                    </div>
+                    <div class="client-total-item">
+                        <img src="./xmilestone_4.png.pagespeed.ic.y4je2yi22m.webp" alt="">
+                        <h3>194</h3>
+                        <h5>Clients</h5>
+                    </div>
+                </div>
+            </div>
+            <section class="session" id="sessionjs">
+                <div class="on-off"></div>
+                <div class="heading-text--about">
+                    <h1>We're here for you.book a tour whenever you want.</h1>
+                </div>
+                <div class="booking-content">
+                    <h2>Spring</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="booking-content">
+                    <h2>Summer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="booking-content">
+                    <h2>autumn</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="booking-content">
+                    <h2>winter</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </section>
+        </div>
+        <div class="footer">
+            <div class="logo--footer">
+                <a href="">
+
+                    <img src="./logo.png" alt="">
+                </a>
+                <p class="desc-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.</p>
+                <div class="logo-pack-footer">
+                    <a href="">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="contact-info">
+                <h2 >Contact us:</h2>
+                <div class="contact-info-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p class="contact-text">There's no address </p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p class="contact-text">0934576++</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p class="contact-text">viethoang26868@gmail.com </p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fas fa-globe"></i>
+                    <p class="contact-text">www.freakingnoobdev.com </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <header class="modal-header">
+                <i class="fas fa-ticket-alt"></i>Booking Tours
+            </header>
+            <div class="modal-body">
+                <label for="quantity" class="modal-label">
+                    <i class="fas fa-suitcase-rolling"></i>
+                    From where?
+                </label>
+                <input id="quantity" type="text" class="modal-input" placeholder="Starting point">
+                <label for="quantity" class="modal-label">
+                    <i class="fas fa-plane"></i>
+                    Where to go?
+                </label>
+                <input id="quantity" type="text" class="modal-input" placeholder="Destination">
+                <div class="date-time">
+                    
+                    <label for="quantity" class="modal-label-date">
+                        <i class="fas fa-plane-departure"></i>
+                       Day start
+                    </label>
+                    <input id="quantity" type="date" class="modal-input-date" placeholder="Starting point">
+                    <label for="quantity" class="modal-label-date margin-left--label">
+                        <i class="fas fa-plane-arrival"></i>
+                        Day end
+                    </label>
+                    <input id="quantity" type="date" class="modal-input-date" placeholder="Starting point">
+                </div>
+                <label for="email" class="modal-label">
+                    <i class="fas fa-envelope"></i>
+                    Send to
+                </label>
+                <input id="email" type="email" class="modal-input" placeholder=" Enter email">
+
+                <button id="buy-tickets">
+                    Book now <i class="fas fa-check"></i>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="help-box-js" class="help-box">
+        <div class="help-box-container">
+            <div class="box-head">
+                <i class="fas fa-user"></i>
+                <a id="close-help-js" href="#" class="close-box-btn">
+                    <i class="fas fa-times"></i>
+                </a>
+                
+            </div>
+            <div class="box-body">
+                <div class="bot-avata">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="text-help">
+                    <p>How can we help you?</p>
+                </div>
+            </div>
+            <div class="box-foot">
+                <input type="text">
+                <a class="send-help" href="">
+                    <i class="fas fa-paper-plane"></i>
+
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>

@@ -1,0 +1,13 @@
+:root{
+    --primary-color:rgb(74, 231, 216);
+    --text-color:rgb(38, 34, 34);
+    --background-color:#ccc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    
+}
