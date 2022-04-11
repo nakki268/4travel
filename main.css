@@ -407,7 +407,7 @@ transition: 1s;
 }
 .tour-info{
     display: none;
-    background-image: url("./img/tour-img.jpg");
+    background-image: url("./tour-img.jpg");
     height: 110vh;
     width: 100%;
     background-size: cover;
@@ -857,25 +857,25 @@ section{
     background-attachment: fixed;
 }
  .booking-content:nth-child(3) h2{
-    background-image: url('./img/spring.png');
+    background-image: url('./spring.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
  .booking-content:nth-child(4) h2{
-    background-image: url('./img/summer.png');
+    background-image: url('./summer.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
  .booking-content:nth-child(5) h2{
-    background-image: url('./img/autumn.png');
+    background-image: url('./autumn.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
  .booking-content:nth-child(6) h2{
-    background-image: url('./img/winnter.png');
+    background-image: url('./winnter.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -960,7 +960,7 @@ section{
     border-top-left-radius:4px ;
     border-top-right-radius: 4px;
    text-shadow: 1px 1px 2px #000;
-    background:url('./img/zyro-image.png');
+    background:url('./zyro-image.png');
     background-size: fill;
     background-repeat: none; 
     background-position: center;
